@@ -1,4 +1,0 @@
-{"ts":1366816529712,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":false,"ts":1366816524742,"patch":[[{"diffs":[[1,"require 'rake/testtask'\r\n\r\nRake::TestTask.new do |t|\r\n  t.libs << 'test'\r\nend\r\n\r\ndesc \"Run tests\"\r\ntask :default => :test"]],"start1":0,"start2":0,"length1":0,"length2":121}]],"length":121,"saved":false}
-{"ts":1366816850551,"patch":[[{"diffs":[[0,"rake"],[-1,"/test"],[1,"'\r\nrequire 'rspec/core/rake_"],[0,"task"]],"start1":9,"start2":9,"length1":13,"length2":36}]],"length":144,"saved":false}
-{"ts":1366816862188,"patch":[[{"diffs":[[0,"\n\r\nR"],[-1,"ake::TestTask.new do |t|\r\n  t.libs << 'test'\r\nend\r\n\r\ndesc \"Run tests\""],[1,"Spec::Core::RakeTask.new(:spec)\r\n"],[0,"\r\nta"]],"start1":47,"start2":47,"length1":77,"length2":41},{"diffs":[[0,"=> :"],[-1,"test"],[1,"spec"]],"start1":100,"start2":100,"length1":8,"length2":8}]],"length":108,"saved":false}

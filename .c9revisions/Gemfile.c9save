@@ -1,5 +1,0 @@
-{"ts":1366816541800,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":false,"ts":1366816556104,"patch":[[{"diffs":[[1,"source :rubygems\n\n"]],"start1":0,"start2":0,"length1":0,"length2":18}]],"length":18,"saved":false}
-{"ts":1366816565772,"patch":[[{"diffs":[[0,"bygems\n\n"],[1,"gem 'rake'\ngem "]],"start1":10,"start2":10,"length1":8,"length2":23}]],"length":33,"saved":false}
-{"ts":1366816571325,"patch":[[{"diffs":[[0," 'rake'\ngem "],[1,"'rdoc'\n"]],"start1":21,"start2":21,"length1":12,"length2":19}]],"length":40,"saved":false}
-{"ts":1366816599939,"patch":[[{"diffs":[[0,"m 'r"],[-1,"do"],[1,"spe"],[0,"c'\n"]],"start1":31,"start2":31,"length1":9,"length2":10}]],"length":41,"saved":false}
