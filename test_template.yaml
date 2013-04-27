@@ -1,0 +1,25 @@
+---
+:name: test
+:children:
+- :name: Child1
+  :provider: Provider 1
+  :chance:
+    :from: 0
+    :to: 50
+- :name: Space
+  :content: ! ' '
+- :name: Child2
+  :content: '1'
+- :name: Space
+  :content: ! ' '
+- :name: Child3
+  :children:
+  - :name: Child3Child1
+    :content: '2'
+  - :name: Space
+    :content: ! ' '
+    :chance:
+      :from: 40
+      :to: 60
+  - :name: Child3Child2
+    :provider: Provider 2

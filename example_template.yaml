@@ -1,0 +1,17 @@
+---
+:name: norse
+:children:
+- :name: title
+  :provider: example
+  :chance:
+    :from: 0
+    :to: 40
+- :name: Space
+  :content: ! ' '
+  :chance:
+    :from: 0
+    :to: 40
+- :name: prefix
+  :provider: example
+- :name: suffix
+  :provider: example

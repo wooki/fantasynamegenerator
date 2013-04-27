@@ -1,0 +1,16 @@
+---
+'test':
+  :values:
+  - 'aaaa'
+  'Child1':
+    :values:
+    - 'gggg'
+  'Child3':
+    :values:
+    - 'rrrr'
+    'Child3Child2':
+      :values:
+      - 'oooo'
+'set 2':  
+  :values:
+  - 'zzzz'
