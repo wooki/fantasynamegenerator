@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'fantasynamegenerator'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2013-04-24'
   s.summary     = "Generate fantasy character names"
   s.description = "Randomly generate fantasy character names from templates"
