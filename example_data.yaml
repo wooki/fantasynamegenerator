@@ -1,4 +1,141 @@
 ---
+'carpathian-male':
+  'title':
+    :values:
+    - 'Count'
+    - 'Baron'
+    - 'Lord'
+    - 'Staroste'
+    - 'Ban'
+    - 'Sir'
+    - 'Duke'
+    - 'Prince'
+    - 'Elector'
+    - 'Viscount'
+    - 'Dominus'
+  'common_firstnames':
+    :values:
+    - 'Vlad'
+    - 'Ștefan'
+    - 'Alexandru'
+    - 'Nicolae'
+    - 'Ivan'
+    - 'Nicolay'
+    - 'Vladimir'
+    - 'Aleksander'
+  'first_prefix':
+    :values:
+    - 'Cip'
+    - 'Răz'
+    - 'Gab'
+    - 'Drag'
+    - 'Bog'
+    - 'Dor'
+    - 'Cos'
+    - 'Vlad'
+    - 'Svet'
+    - 'Stann'
+  'first_middle':
+    :values:
+    - 'r'
+    - 'v'
+    - 'd'
+    - 't'
+    - 'is'
+    - 'im'
+    - 'os'
+  'first_suffix':
+    :values:
+    - 'ir'
+    - 'lav'
+    - 'ian'
+    - 'in'
+    - 'an'
+    - 'iel'
+    - 'os'
+    - 'ov'
+    - 'is'
+  'surname_prefix':
+    :values:
+    - 'Mih'
+    - 'Stoy'
+    - 'Ili'
+    - 'Ivan'
+    - 'Vid'
+    - 'Min'
+    - 'Mil'
+    - 'Dim'
+    - 'Gadzh'
+    - 'Sarm'
+    - 'Slav'
+    - 'Garg'
+    - 'Drac'
+  'surname_middle':
+    :values:
+    - 'ayl'
+    - 'an'
+    - 'itr'
+    - 'or'
+  'surname_suffix':
+    :values:
+    - 'ov'
+    - 'ev'
+    - 'vic'
+    - 'ul'
+    - 'ski'
+'dothraki-male':
+  'title':
+    :values:
+    - 'Khal'
+  'prefix':
+    :values:
+    - 'Dro'
+    - 'Ko'
+    - 'Qo'
+    - 'Jo'
+    - 'Zo'
+    - 'Hli'
+    - 'Qa'
+    - 'Vre'
+    - 'Cha'
+  'middle':
+    :values:
+    - 'va'
+    - 'zi'
+  'suffix':
+    :values:
+    - 'go'
+    - 'rro'
+    - 'tho'
+    - 'mmo'
+    - 'llo'
+    - 'ffo'
+    - 'nno'
+    - 'lo'
+    - 'ko'
+'dothraki-female':
+  'title':
+    :values:
+    - 'Khaleesi'
+  'prefix':
+    :values:
+    - 'I'
+    - 'Ha'
+    - 'Te'
+    - 'Za'
+    - 'E'
+  'middle':
+    :values:
+    - 'va'
+    - 'la'
+    - 'hi'
+  'suffix':
+    :values:
+    - 'rri'
+    - 'hhi'
+    - 'nni'
+    - 'li'
+    - 'mi'
 'norse': 
   'title':
     :values:
