@@ -1,10 +1,25 @@
 require 'yaml'
-require_relative 'fantasynamegenerator/provider.rb'
-require_relative 'fantasynamegenerator/chunk.rb'
-require_relative 'fantasynamegenerator/yaml_provider.rb'
+require File.dirname(__FILE__) + '/fantasynamegenerator/provider.rb'
+require File.dirname(__FILE__) + '/fantasynamegenerator/chunk.rb'
+require File.dirname(__FILE__) + '/fantasynamegenerator/yaml_provider.rb'
 
 class FantasyNameGenerator
-    
+
+    # factory method to load default data
+    def self.BuiltIn(template='north_euro_place')
+
+        data_file = File.expand_path(File.dirname(__FILE__) + '/../builtin_data.yaml')
+        template_file = File.expand_path(File.dirname(__FILE__) + '/../'+template+'.yaml')
+
+        fng = FantasyNameGenerator.new
+
+        provider = YamlProvider.new(IO.read(data_file))
+        data = IO.read(template_file)
+        fng.parse_yaml(data, {"builtin" => provider})
+
+        fng
+    end
+
     # recursively add node and it's children
     def add_chunks(chunkhash, providers)
         
@@ -38,6 +53,16 @@ class FantasyNameGenerator
     # evaluate the chunks and display
     def render(chance=nil)
         @chunkdata.render chance
+    end
+
+    # generate n names with random chance
+    def random(n)
+
+        names = []
+        (1..n).each do | x |
+            names.push self.render(rand(1..100))
+        end
+        names
     end
     
 end

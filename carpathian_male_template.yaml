@@ -1,0 +1,44 @@
+---
+:name: carpathian-male
+:children:
+- :name: title
+  :provider: builtin
+  :chance:
+    :from: 40
+    :to: 60
+- :name: Space
+  :content: ! ' '
+  :chance:
+    :from: 40
+    :to: 60
+- :name: common_firstnames
+  :provider: builtin
+  :chance:
+    :from: 0
+    :to: 50
+- :name: first_prefix
+  :provider: builtin
+  :chance:
+    :from: 51
+    :to: 100
+- :name: first_middle
+  :provider: builtin
+  :chance:
+    :from: 75
+    :to: 100
+- :name: first_suffix
+  :provider: builtin
+  :chance:
+    :from: 51
+    :to: 100
+- :name: Space
+  :content: ! ' '
+- :name: surname_prefix
+  :provider: builtin
+- :name: surname_middle
+  :provider: builtin
+  :chance:
+    :from: 30
+    :to: 70
+- :name: surname_suffix
+  :provider: builtin

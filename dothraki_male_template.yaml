@@ -1,0 +1,9 @@
+---
+:name: dothraki-male
+:children:
+- :name: prefix
+  :provider: dothraki-male
+- :name: middle
+  :provider: dothraki-male
+- :name: suffix
+  :provider: dothraki-male

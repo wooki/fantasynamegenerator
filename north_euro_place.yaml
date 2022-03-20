@@ -1,0 +1,17 @@
+---
+:name: north-euro-place
+:children:
+- :name: prefix
+  :provider: builtin
+  :chance:
+    :from: 0
+    :to: 2
+- :name: Space
+  :content: ! ' '
+  :chance:
+    :from: 0
+    :to: 2
+- :name: start
+  :provider: builtin
+- :name: end
+  :provider: builtin

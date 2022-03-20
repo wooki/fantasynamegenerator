@@ -1,0 +1,17 @@
+---
+:name: spanish-place
+:children:
+- :name: prefix
+  :provider: builtin
+  :chance:
+    :from: 0
+    :to: 5
+- :name: Space
+  :content: ! ' '
+  :chance:
+    :from: 0
+    :to: 5
+- :name: start
+  :provider: builtin
+- :name: end
+  :provider: builtin

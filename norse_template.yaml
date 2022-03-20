@@ -2,7 +2,7 @@
 :name: norse
 :children:
 - :name: title
-  :provider: example
+  :provider: builtin
   :chance:
     :from: 0
     :to: 40
@@ -12,6 +12,6 @@
     :from: 0
     :to: 40
 - :name: prefix
-  :provider: example
+  :provider: builtin
 - :name: suffix
-  :provider: example
+  :provider: builtin
